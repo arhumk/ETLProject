@@ -1,0 +1,22 @@
+-- 1. Create an Airbnb table
+CREATE TABLE airbnb (
+    id Serial, 
+	name VARCHAR(200),
+	host_id Serial,
+	host_name VARCHAR(200),
+	neighbourhood_group VARCHAR(50),
+	neighbourhood VARCHAR(50),
+	latitude FLOAT,
+	longitude FLOAT,
+	room_type VARCHAR(50),
+	price FLOAT,
+	minimum_nights INTEGER,
+	number_of_reviews INTEGER,
+	last_review DATE,
+	reviews_per_month FLOAT,
+	calculated_host_listings_count INTEGER,
+	availability_365 INTEGER,
+    PRIMARY KEY (id)
+);
+
+
