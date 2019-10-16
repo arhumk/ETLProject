@@ -1,4 +1,6 @@
 -- 1. Create an Airbnb table
+
+
 CREATE TABLE airbnb (
     id Serial, 
 	name VARCHAR(200),
